@@ -6,4 +6,12 @@
   a {
     @apply underline text-neutral-500 hover:text-indigo-600;
   }
+  p {
+    @apply max-w-prose sm:leading-relaxed
+  }
+}
+
+::selection {
+  background-color: #4f46e5;
+  color: #fefefe;
 }
