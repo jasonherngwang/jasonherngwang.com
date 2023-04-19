@@ -17,7 +17,7 @@ export default function Projects() {
       </section>
       <Separator className="my-16 sm:my-24" />
       <div className="mb-10 mt-2 sm:mb-16">
-        <h1 className="text-2xl font-semibold text-neutral-500 sm:text-3xl">
+        <h1 className="text-2xl font-semibold text-neutral-600 sm:text-4xl">
           Other Projects
         </h1>
         <p className="mt-2 sm:text-xl">

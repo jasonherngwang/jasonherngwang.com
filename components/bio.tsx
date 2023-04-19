@@ -7,14 +7,28 @@ export default function Bio() {
       {/* Bio text */}
       <div className="flex flex-col gap-y-3 sm:mt-2 sm:gap-y-6">
         <p>
-          Full-stack software engineer with experience in JavaScript, Ruby,
-          React, Tailwind, Express, PostgreSQL, Docker, and AWS. Based in Los
-          Angeles.
+          Full-stack software engineer in Los Angeles, experienced in
+          JavaScript, Ruby, React, Tailwind, Express, PostgreSQL, Docker, and
+          AWS.
         </p>
         <p>
-          I recently created{' '}
+          I enjoy diving into complex domains and solving unstructured problems.
+          I bring over a decade of engineering experience in autonomously
+          accomplishing projects, leading cross-functional efforts, and
+          mentoring junior team members. If you would like to work together, let
+          {"'"}s chat:{' '}
           <a
-            href="https://launchschool.com/capstone"
+            href="mailto:jasonherngwang@gmail.com"
+            target="_blank"
+            className="underline-offset-2"
+          >
+            jasonherngwang@gmail.com
+          </a>
+        </p>
+        <p>
+          Recently I created{' '}
+          <a
+            href="https://seamless-cicd.com"
             target="_blank"
             className="font-semibold text-indigo-700 underline-offset-2"
           >
@@ -28,8 +42,8 @@ export default function Bio() {
         <Image
           src={jasonAvatar}
           alt="Jason Wang"
-          width={140}
-          height={140}
+          width={170}
+          height={170}
           className="rounded-full border border-neutral-200"
           priority
         />

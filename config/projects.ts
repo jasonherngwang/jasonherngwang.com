@@ -6,7 +6,7 @@ export const otherProjects: ProjectDetails[] = [
     description:
       'A tool for collecting and inspecting HTTP requests and webhooks.',
     stack:
-      'React, Tailwind, Express, TypeScript, MongoDB, Postgres, Nginx, DigitalOcean Droplet',
+      'socket.io, React, Tailwind, Express, TypeScript, MongoDB, PostgreSQL, Nginx, DigitalOcean Droplet',
     imageName: 'jaguarbin.png',
     imageAlt: 'Screenshot of JaguarBin App',
     siteUrl: 'https://jaguarbin.teamjaguar.org/',
@@ -14,9 +14,10 @@ export const otherProjects: ProjectDetails[] = [
   },
   {
     title: 'In Season',
-    description: 'Track what fruits and vegetables are in season right now.',
+    description:
+      "An app for tracking what fruits and vegetables are in season right now. I built this during Launch School's Capstone Prep phase to practice Just-in-Time learning of Docker and AWS infrastructure.",
     stack:
-      'React, Tailwind, Express, TypeScript, MongoDB, AWS EC2, S3, CloudFront, Docker',
+      'React, Tailwind, Express, TypeScript, MongoDB, Mongoose, Jest, Cypress, Docker Compose, Nginx, AWS SDK, EC2, S3, CloudFront',
     imageName: 'in-season.png',
     imageAlt: 'Screenshot of In Season App',
     siteUrl: 'https://in-season-now.com/',
@@ -27,8 +28,8 @@ export const otherProjects: ProjectDetails[] = [
   {
     title: 'Eight Wonders',
     description:
-      "Create a bucket list itinerary, and we'll find the shortest flight path to see them all.",
-    stack: 'Ruby, Sinatra, Postgres, ERB, HTML, CSS',
+      'A flight path optimizer that finds the shortest route connecting up to any 8 airports. I created this after learning Ruby fundamentals during the Launch School Core program.',
+    stack: 'Ruby, Sinatra, PostgreSQL, ERB, HTML, CSS, fly.io',
     imageName: 'eight-wonders.png',
     imageAlt: 'Screenshot of Eight Wonders App',
     siteUrl: 'https://eight-wonders.fly.dev/',

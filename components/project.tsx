@@ -48,7 +48,7 @@ export default function Project({ project, index }: ProjectProps) {
           )}
         </div>
       </div>
-      <p className="mt-4 sm:text-xl">{description}</p>
+      <p className="mt-4 sm:text-xl sm:leading-relaxed">{description}</p>
       <p className="mt-4 text-sm text-neutral-500">{stack}</p>
     </div>
   );

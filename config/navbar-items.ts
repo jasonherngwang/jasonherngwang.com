@@ -1,16 +1,15 @@
 import { NavbarItem } from '@/types';
 
 export const navbarItems: NavbarItem[] = [
-  // Todo: Add resume PDF
   {
     title: 'Resume',
-    href: 'https://www.linkedin.com/in/jason-wang-p-e-159194b/',
+    href: '/Jason_Wang_Resume.pdf',
     external: true,
   },
   {
     title: 'Email',
     href: 'mailto:jasonherngwang@gmail.com',
-    external: false,
+    external: true,
   },
   {
     title: 'GitHub',
