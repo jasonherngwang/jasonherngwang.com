@@ -1,34 +1,45 @@
 import '@/styles/globals.css';
-import localFont from 'next/font/local';
+import { Metadata } from 'next';
 import clsx from 'clsx';
 
 import { siteConfig } from '@/config/site';
+import { satoshi } from '@/lib/fonts';
 import Navbar from '@/components/navbar';
 
-const satoshi = localFont({
-  variable: '--font-satoshi',
-  src: [
-    {
-      path: '../public/fonts/satoshi/Satoshi-Variable.ttf',
-      weight: '400 700',
-      style: 'normal',
-    },
-    {
-      path: '../public/fonts/satoshi/Satoshi-VariableItalic.ttf',
-      weight: '400 700',
-      style: 'italic',
-    },
-  ],
-  display: 'swap',
-});
-
-export const metadata = {
+export const metadata: Metadata = {
   title: {
     default: siteConfig.name,
     template: `%s | ${siteConfig.name}`,
   },
   description: siteConfig.description,
   metadataBase: new URL(siteConfig.url),
+  openGraph: {
+    type: 'website',
+    locale: 'en_US',
+    url: siteConfig.url,
+    title: siteConfig.name,
+    description: siteConfig.description,
+    siteName: siteConfig.name,
+    images: [
+      {
+        url: siteConfig.ogImage,
+        width: 1200,
+        height: 630,
+        alt: siteConfig.name,
+      },
+    ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: siteConfig.name,
+    description: siteConfig.description,
+    images: [siteConfig.ogImage],
+  },
+  icons: {
+    icon: '/favicon.ico',
+    shortcut: '/favicon-16x16.png',
+    apple: '/apple-touch-icon.png',
+  },
 };
 
 export default function RootLayout({
@@ -46,7 +57,7 @@ export default function RootLayout({
       )}
     >
       {/* Width 320-1024px; x-padding increases with screen size */}
-      <body className="mx-auto min-h-screen min-w-[320px] max-w-5xl px-4 sm:px-6 lg:px-8">
+      <body className="mx-auto min-h-screen min-w-[360px] max-w-5xl px-4 sm:px-6 lg:px-8">
         <Navbar />
         {children}
       </body>

@@ -30,7 +30,6 @@ export default function Project({ project, index }: ProjectProps) {
           width={992}
           height={496}
           className="rounded-xl shadow sm:rounded-3xl"
-          unoptimized={true}
         />
       </div>
       <div className="mt-6 flex flex-col justify-between sm:mt-12 sm:flex-row sm:items-center">
@@ -49,7 +48,7 @@ export default function Project({ project, index }: ProjectProps) {
           )}
         </div>
       </div>
-      <p className="mt-4 leading-relaxed sm:text-xl">{description}</p>
+      <p className="mt-4 sm:text-xl">{description}</p>
       <p className="mt-4 text-sm text-neutral-500">{stack}</p>
     </div>
   );

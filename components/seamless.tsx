@@ -1,36 +1,16 @@
 import Image from 'next/image';
 import architectureImage from '@/public/images/seamless/architecture.png';
 import pipelineStagesImage from '@/public/images/seamless/pipeline-stages.png';
+import { ArrowUpRight } from 'lucide-react';
 
 import Separator from '@/components/ui/separator';
 import SeamlessSummary from './seamless-summary';
 
-const UpRightArrowIcon = (
-  <svg
-    xmlns="http://www.w3.org/2000/svg"
-    width="24"
-    height="24"
-    viewBox="0 0 24 24"
-    fill="none"
-    stroke="currentColor"
-    stroke-width="2"
-    stroke-linecap="round"
-    stroke-linejoin="round"
-    className="transition-transform group-hover:-translate-y-0.5 group-hover:translate-x-0.5"
-  >
-    <line x1="7" y1="17" x2="17" y2="7"></line>
-    <polyline points="7 7 17 7 17 17"></polyline>
-  </svg>
-);
-
 export default function Seamless() {
   return (
     <section className="sm:text-xl">
-      <p className="text-xs font-bold uppercase tracking-wider text-neutral-500 sm:text-base">
-        Featured Project
-      </p>
       <SeamlessSummary />
-      <p className="mt-10 max-w-prose sm:mt-16 sm:leading-relaxed">
+      <p className="mt-10 sm:mt-16">
         When code is updated in GitHub, Seamless will automatically{' '}
         <em>source</em>, <em>test</em>, <em>build</em>, and <em>deploy</em> it,
         enabling developers to deliver software quickly and reliably.
@@ -39,23 +19,20 @@ export default function Seamless() {
         <Image
           src={pipelineStagesImage}
           alt="Pipeline Stages"
-          width={992}
           className="rounded-xl shadow-md sm:rounded-3xl sm:shadow-lg"
-          unoptimized={true}
           priority
         />
       </div>
-      <p className="mt-8 max-w-prose sm:mt-16 sm:leading-relaxed">
-        Seamless is a cloud-native solution built on AWS using EC2, ECS,
-        Fargate, Step Functions, RDS, ElastiCache, EFS, SNS, Lambda, and API
-        Gateway.
+      <p className="mt-8 sm:mt-16">
+        Seamless is a cloud-native solution built on AWS. It uses a Step
+        Functions state machine for task management, and ECS on EC2 for task
+        execution. All tasks share data via a Docker volume on EFS. A WebSockets
+        API Gateway streams logs and status updates to the dashboard.
       </p>
       <div className="mt-8 block sm:mt-16 sm:px-8">
         <Image
           src={architectureImage}
           alt="Seamless AWS Architecture"
-          width={992}
-          unoptimized={true}
           priority
         />
       </div>
@@ -69,7 +46,7 @@ export default function Seamless() {
           <span>
             Read the <em>Seamless</em> Case Study
           </span>
-          {UpRightArrowIcon}
+          <ArrowUpRight className="transition-transform group-hover:-translate-y-0.5 group-hover:translate-x-0.5" />
         </a>
       </div>
     </section>
