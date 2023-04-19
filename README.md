@@ -1,36 +1,15 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Jason Wang
 
-## Getting Started
+## Full-stack software engineer in Los Angeles, experienced in JavaScript, Ruby, React, Tailwind, Express, PostgreSQL, Docker, and AWS
 
-First, run the development server:
+I enjoy diving into complex domains and solving unstructured problems. I bring over a decade of engineering experience in autonomously accomplishing projects, leading cross-functional efforts, and mentoring junior team members. If you would like to work together, let's chat: jasonherngwang@gmail.com
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+[Resume](https://jasonherngwang.com/Jason_Wang_Resume.pdf)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Seamless CI/CD
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Recently I created [Seamless](https://seamless-cicd.com), an open-source CI/CD pipeline for containerized microservices.
 
-[http://localhost:3000/api/hello](http://localhost:3000/api/hello) is an endpoint that uses [Route Handlers](https://beta.nextjs.org/docs/routing/route-handlers). This endpoint can be edited in `app/api/hello/route.ts`.
+Seamless is an open-source, low-config CI/CD pipeline for containerized microservice applications on ECS Fargate. It features a CLI for AWS deployment, a real-time dashboard, integration testing with Docker Compose, rollbacks, log storage in Redis, and parallel execution of pipelines.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+![Seamless CI/CD](/public/images/seamless/seamless.png)
