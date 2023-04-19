@@ -2,6 +2,11 @@
   "name": "jasonherngwang.com",
   "version": "0.1.0",
   "private": true,
+  "license": "MIT",
+  "author": {
+    "name": "jasonherngwang",
+    "url": "https://jasonherngwang.com"
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
