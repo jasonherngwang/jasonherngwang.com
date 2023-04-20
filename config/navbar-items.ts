@@ -18,7 +18,7 @@ export const navbarItems: NavbarItem[] = [
   },
   {
     title: 'LinkedIn',
-    href: 'https://www.linkedin.com/in/jason-wang-p-e-159194b/',
+    href: 'https://www.linkedin.com/in/jasonherngwang/',
     external: true,
   },
   {
