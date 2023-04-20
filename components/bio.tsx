@@ -13,10 +13,13 @@ export default function Bio() {
         </p>
         <p>
           I enjoy diving into complex domains and solving unstructured problems.
-          I bring over a decade of engineering experience in autonomously
-          accomplishing projects, leading cross-functional efforts, and
-          mentoring junior team members. If you would like to work together, let
-          {"'"}s chat:{' '}
+          I bring over a decade of experience in tackling engineering
+          challenges, improving processes through automation, and leading
+          cross-functional efforts.
+        </p>
+        <p className="border-l-2 border-l-neutral-400 pl-2 italic sm:border-l-4 sm:py-1 sm:pl-4">
+          I{"'"}m currently looking for a software engineering role! Please
+          reach out if you{"'"}d like to chat:{' '}
           <a
             href="mailto:jasonherngwang@gmail.com"
             target="_blank"
