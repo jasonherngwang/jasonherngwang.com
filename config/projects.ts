@@ -47,4 +47,14 @@ export const otherProjects: ProjectDetails[] = [
     siteUrl: 'https://roar-store.teamjaguar.org/',
     githubUrl: 'https://github.com/ls-jre/roar-store',
   },
+  {
+    title: 'I ❤️ LeetCode',
+    description:
+      'A LeetCode random problem selector and timer, for simulating being in the hot seat during interviews. I built this to learn Next.js, Prisma, and deploying to a DigitalOcean VPS.',
+    stack: 'Next.js, Prisma, Tailwind, Mongoose, DigitalOcean Droplet',
+    imageName: 'love-leetcode.webp',
+    imageAlt: 'Screenshot of Love LeetCode App',
+    siteUrl: 'https://leetcode.jasonherngwang.com/',
+    githubUrl: 'https://github.com/jasonherngwang/love-leetcode',
+  },
 ];
