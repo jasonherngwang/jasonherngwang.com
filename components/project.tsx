@@ -31,8 +31,8 @@ export default (async function Project({ project, index }: ProjectProps) {
         <Image
           src={imagePath}
           alt={imageAlt}
-          width={992}
-          height={496}
+          width={1500}
+          height={750}
           className="rounded-xl shadow sm:rounded-3xl"
           blurDataURL={blurDataURL}
           placeholder="blur"
