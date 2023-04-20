@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import seamlessScreenshot from '@/public/images/seamless/seamless.png';
+import seamlessScreenshot from '@/public/images/seamless/seamless.webp';
 import { ArrowUpRight } from 'lucide-react';
 
 import GradientButtonLink from '@/components/ui/gradient-button-link';

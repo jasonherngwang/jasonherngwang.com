@@ -7,7 +7,7 @@ export const otherProjects: ProjectDetails[] = [
       'A tool for collecting and inspecting HTTP requests and webhooks.',
     stack:
       'socket.io, React, Tailwind, Express, TypeScript, MongoDB, PostgreSQL, Nginx, DigitalOcean Droplet',
-    imageName: 'jaguarbin.png',
+    imageName: 'jaguarbin.webp',
     imageAlt: 'Screenshot of JaguarBin App',
     siteUrl: 'https://jaguarbin.teamjaguar.org/',
     githubUrl: 'https://github.com/ls-jre/jaguarbin',
@@ -18,7 +18,7 @@ export const otherProjects: ProjectDetails[] = [
       "An app for tracking what fruits and vegetables are in season right now. I built this during Launch School's Capstone Prep phase to practice Just-in-Time learning of Docker and AWS infrastructure.",
     stack:
       'React, Tailwind, Express, TypeScript, MongoDB, Mongoose, Jest, Cypress, Docker Compose, Nginx, AWS SDK, EC2, S3, CloudFront',
-    imageName: 'in-season.png',
+    imageName: 'in-season.webp',
     imageAlt: 'Screenshot of In Season App',
     siteUrl: 'https://in-season-now.com/',
     githubUrl: 'https://github.com/jasonherngwang/in-season-frontend',
@@ -30,7 +30,7 @@ export const otherProjects: ProjectDetails[] = [
     description:
       'A flight path optimizer that finds the shortest route connecting up to any 8 airports. I created this after learning Ruby fundamentals during the Launch School Core program.',
     stack: 'Ruby, Sinatra, PostgreSQL, ERB, HTML, CSS, fly.io',
-    imageName: 'eight-wonders.png',
+    imageName: 'eight-wonders.webp',
     imageAlt: 'Screenshot of Eight Wonders App',
     siteUrl: 'https://eight-wonders.fly.dev/',
     githubUrl: 'https://github.com/jasonherngwang/eight-wonders',
@@ -42,7 +42,7 @@ export const otherProjects: ProjectDetails[] = [
     description:
       'A shopping cart app build to practice React and custom hooks.',
     stack: 'React, Tailwind, Express, MongoDB, Nginx, DigitalOcean Droplet',
-    imageName: 'roar-store.png',
+    imageName: 'roar-store.webp',
     imageAlt: 'Screenshot of Roar! Store App',
     siteUrl: 'https://roar-store.teamjaguar.org/',
     githubUrl: 'https://github.com/ls-jre/roar-store',

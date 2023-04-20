@@ -1,6 +1,6 @@
 import Image from 'next/image';
-import architectureImage from '@/public/images/seamless/architecture.png';
-import pipelineStagesImage from '@/public/images/seamless/pipeline-stages.png';
+import architectureImage from '@/public/images/seamless/architecture.webp';
+import pipelineStagesImage from '@/public/images/seamless/pipeline-stages.webp';
 import { ArrowUpRight } from 'lucide-react';
 
 import Separator from '@/components/ui/separator';

@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import jasonAvatar from '@/public/images/avatars/jason.png';
+import jasonAvatar from '@/public/images/avatars/jason.webp';
 
 export default function Bio() {
   return (
