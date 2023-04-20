@@ -4,7 +4,7 @@ export const otherProjects: ProjectDetails[] = [
   {
     title: 'JaguarBin',
     description:
-      'A tool for collecting and inspecting HTTP requests and webhooks.',
+      'A tool for collecting and inspecting HTTP requests and webhooks. My team built this to learn Nginx configuration, WebSockets, MERN, and cron jobs.',
     stack:
       'socket.io, React, Tailwind, Express, TypeScript, MongoDB, PostgreSQL, Nginx, DigitalOcean Droplet',
     imageName: 'jaguarbin.webp',
@@ -15,7 +15,7 @@ export const otherProjects: ProjectDetails[] = [
   {
     title: 'In Season',
     description:
-      "An app for tracking what fruits and vegetables are in season right now. I built this during Launch School's Capstone Prep phase to practice Just-in-Time learning of Docker and AWS infrastructure.",
+      "An app for tracking what fruits and vegetables are in season right now. I built this during Launch School's Capstone Prep phase to practice Just-in-Time learning of AWS infrastructure, containerization with Docker Compose, and E2E testing with Cypress.",
     stack:
       'React, Tailwind, Express, TypeScript, MongoDB, Mongoose, Jest, Cypress, Docker Compose, Nginx, AWS SDK, EC2, S3, CloudFront',
     imageName: 'in-season.webp',
@@ -28,7 +28,7 @@ export const otherProjects: ProjectDetails[] = [
   {
     title: 'Eight Wonders',
     description:
-      'A flight path optimizer that finds the shortest route connecting up to any 8 airports. I created this after learning Ruby fundamentals during the Launch School Core program.',
+      'A flight path optimizer that finds the shortest route connecting up to any 8 airports. I created this after learning Ruby and web development fundamentals during the Launch School Core program.',
     stack: 'Ruby, Sinatra, PostgreSQL, ERB, HTML, CSS, fly.io',
     imageName: 'eight-wonders.webp',
     imageAlt: 'Screenshot of Eight Wonders App',
@@ -40,8 +40,8 @@ export const otherProjects: ProjectDetails[] = [
   {
     title: 'Roar! Store',
     description:
-      'A shopping cart app build to practice React and custom hooks.',
-    stack: 'React, Tailwind, Express, MongoDB, Nginx, DigitalOcean Droplet',
+      'My team created this shopping cart app to practice React, custom hooks for data fetching, and mock testing with Jest.',
+    stack: 'React, Tailwind, Jest, Express, MongoDB',
     imageName: 'roar-store.webp',
     imageAlt: 'Screenshot of Roar! Store App',
     siteUrl: 'https://roar-store.teamjaguar.org/',
@@ -50,7 +50,7 @@ export const otherProjects: ProjectDetails[] = [
   {
     title: 'I ❤️ LeetCode',
     description:
-      'A LeetCode random problem selector and timer, for simulating being in the hot seat during interviews. I built this to learn Next.js, Prisma, and deploying to a DigitalOcean VPS.',
+      'A LeetCode random problem selector and countdown timer, for simulating pressure on timed assessments. I mainly built this to learn Next.js, Prisma, and deploying to a DigitalOcean VPS, but happened to learn some data structures and algorithms along the way.',
     stack:
       'Next.js, Prisma, Tailwind, Mongoose, PostgreSQL, DigitalOcean Droplet',
     imageName: 'love-leetcode.webp',
