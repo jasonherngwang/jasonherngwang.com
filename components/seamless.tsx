@@ -19,7 +19,7 @@ export default function Seamless() {
           src={pipelineStagesImage}
           alt="Pipeline Stages"
           className="rounded-xl border border-gray-200 shadow-md sm:rounded-3xl sm:border-2 sm:shadow-lg"
-          priority
+          placeholder="blur"
         />
       </div>
       <p className="mt-8 sm:mt-16">
@@ -32,7 +32,7 @@ export default function Seamless() {
         <Image
           src={architectureImage}
           alt="Seamless AWS Architecture"
-          priority
+          placeholder="blur"
         />
       </div>
       <div className="mt-12 flex justify-center sm:mt-20">

@@ -41,12 +41,11 @@ export default function Bio() {
         </p>
       </div>
       {/* Avatar, hidden on mobile */}
-      <div className="hidden shrink-0 sm:block">
+      <div className="hidden w-[170px] shrink-0 sm:block">
         <Image
           src={jasonAvatar}
           alt="Jason Wang"
-          width={170}
-          height={170}
+          placeholder="blur"
           className="rounded-full border border-gray-200"
           priority
         />

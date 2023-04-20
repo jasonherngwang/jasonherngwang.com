@@ -1,6 +1,7 @@
 import Image from 'next/image';
 import { ProjectDetails } from '@/types';
 
+import { getPlaceholderImage } from '@/lib/image-utils';
 import Separator from './ui/separator';
 
 interface ProjectProps {
@@ -8,7 +9,7 @@ interface ProjectProps {
   index: number;
 }
 
-export default function Project({ project, index }: ProjectProps) {
+export default async function Project({ project, index }: ProjectProps) {
   const {
     title,
     description,
@@ -20,16 +21,21 @@ export default function Project({ project, index }: ProjectProps) {
     blogUrl,
   } = project;
 
+  const imagePath = `/images/projects/${imageName}`;
+  const blurDataURL = await getPlaceholderImage(imagePath);
+
   return (
     <div>
       {index !== 0 && <Separator className="mb-14 mt-16 sm:mb-20 sm:mt-24" />}
       <div className="block">
         <Image
-          src={`/images/projects/${imageName}`}
+          src={imagePath}
           alt={imageAlt}
           width={992}
           height={496}
           className="rounded-xl shadow sm:rounded-3xl"
+          blurDataURL={blurDataURL}
+          placeholder="blur"
         />
       </div>
       <div className="mt-6 flex flex-col justify-between sm:mt-12 sm:flex-row sm:items-center">
