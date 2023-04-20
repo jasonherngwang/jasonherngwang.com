@@ -28,7 +28,7 @@ export const otherProjects: ProjectDetails[] = [
   {
     title: 'Eight Wonders',
     description:
-      'A flight path optimizer that finds the shortest route connecting up to any 8 airports. I created this after learning Ruby and web development fundamentals during the Launch School Core program.',
+      'A flight path optimizer that finds the shortest route connecting up to 8 airports. I created this after learning Ruby and web development fundamentals during the Launch School Core program.',
     stack: 'Ruby, Sinatra, PostgreSQL, ERB, HTML, CSS, fly.io',
     imageName: 'eight-wonders.webp',
     imageAlt: 'Screenshot of Eight Wonders App',

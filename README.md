@@ -19,13 +19,13 @@ Seamless is an open-source, low-config CI/CD pipeline for containerized microser
 ## This Website
 
 This is a simple website, but I still learned a lot while making it:
-- Learning from the Next.js masters: [shadcn](https://github.com/shadcn), [leerob](https://github.com/leerob), [steven-tey](https://github.com/steven-tey)
-- Trying out the `app` dir
+- Learning from repos of [shadcn](https://github.com/shadcn), [leerob](https://github.com/leerob), and [steven-tey](https://github.com/steven-tey)
+- Trying out the `app` dir (basic usage)
 - Setting up metadata in `layout`, and learning about OpenGraph and `og:image`
-- Adding local fonts with `next/font`, and using Tailwind `max-w-prose` for a comfortable reading width. Picking a font that is **NOT** Inter (➡️ went with Satoshi).
-- `@ianvs/prettier-plugin-sort-imports` and `prettier.config.js` to auto sort imports!
-- New Tailwind CSS v3.3 gradient color stops!!!
+- Serving fonts with `next/font`, and using Tailwind `max-w-prose` for a comfortable reading width. Picking a font that is **NOT** Inter (➡️ went with Satoshi).
+- `@ianvs/prettier-plugin-sort-imports` and `prettier.config.js` to auto sort imports
+- New Tailwind CSS v3.3 gradient color stops!
+- Creating types and `config` files for nav items and project details
+- Converting images to webp and using plaiceholder for blur data while images are loading.
 - Using Husky to enforce conventional commit format
-- Creating types and `config` files for content
-- Converting all images to webp. 🙏 Thank you Next.js for making it easy to get those Lighthouse 100s.
 - Design inspo: [Onno Schwanen](https://onnoschwanen.com/), [Arda Karacizmeli](https://www.ardakaracizmeli.com/), [Diagram](https://diagram.com/)
