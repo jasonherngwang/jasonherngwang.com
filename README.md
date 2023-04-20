@@ -27,5 +27,5 @@ This is a simple website, but I still learned a lot while making it:
 - New Tailwind CSS v3.3 gradient color stops!!!
 - Using Husky to enforce conventional commit format
 - Creating types and `config` files for content
-- Converting all images to webp so Lighthouse will stop scolding me
+- Converting all images to webp. 🙏 Thank you Next.js for making it easy to get those Lighthouse 100s.
 - Design inspo: [Onno Schwanen](https://onnoschwanen.com/), [Arda Karacizmeli](https://www.ardakaracizmeli.com/), [Diagram](https://diagram.com/)
