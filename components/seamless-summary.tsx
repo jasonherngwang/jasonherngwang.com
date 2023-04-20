@@ -7,7 +7,7 @@ import GradientButtonLink from '@/components/ui/gradient-button-link';
 export default function SeamlessSummary() {
   return (
     <div id="seamless">
-      <p className="text-xs font-bold uppercase tracking-wider text-neutral-500 sm:text-base">
+      <p className="text-xs font-bold uppercase tracking-wider text-gray-500 sm:text-base">
         Featured Project
       </p>
       <div className="mt-2 flex flex-col justify-between sm:flex-row sm:items-center">

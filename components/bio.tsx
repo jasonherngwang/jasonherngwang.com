@@ -17,7 +17,7 @@ export default function Bio() {
           challenges, improving processes through automation, and leading
           cross-functional efforts.
         </p>
-        <p className="border-l-2 border-l-neutral-400 pl-2 italic sm:border-l-4 sm:py-1 sm:pl-4">
+        <p className="border-l-2 border-l-gray-400 pl-2 italic sm:border-l-4 sm:py-1 sm:pl-4">
           I{"'"}m currently looking for a software engineering role! Please
           reach out if you{"'"}d like to chat:{' '}
           <a
@@ -47,7 +47,7 @@ export default function Bio() {
           alt="Jason Wang"
           width={170}
           height={170}
-          className="rounded-full border border-neutral-200"
+          className="rounded-full border border-gray-200"
           priority
         />
       </div>

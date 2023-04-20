@@ -19,7 +19,7 @@ export default function Seamless() {
         <Image
           src={pipelineStagesImage}
           alt="Pipeline Stages"
-          className="rounded-xl shadow-md sm:rounded-3xl sm:shadow-lg"
+          className="rounded-xl border-2 border-gray-200 shadow-md sm:rounded-3xl sm:shadow-lg"
           priority
         />
       </div>

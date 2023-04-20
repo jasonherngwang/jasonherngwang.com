@@ -6,7 +6,7 @@ export default function Navbar() {
   return (
     <nav className="mt-4 flex flex-col items-baseline justify-between sm:mt-12 sm:flex-row">
       <Link href="/" className="no-underline">
-        <span className="text-2xl font-bold text-neutral-800 hover:text-indigo-700 sm:text-3xl">
+        <span className="text-2xl font-bold text-gray-800 hover:text-indigo-700 sm:text-3xl">
           Jason Wang
         </span>
       </Link>

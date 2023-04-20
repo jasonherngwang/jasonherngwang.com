@@ -48,15 +48,13 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    // Satoshi 400 weight is too thin; use medium 500 for legibility
     <html
       lang="en"
       className={clsx(
-        'bg-neutral-50 font-sans font-medium text-neutral-700 antialiased',
+        'bg-gray-50 font-sans font-medium text-gray-700 antialiased',
         satoshi.variable,
       )}
     >
-      {/* Width 320-1024px; x-padding increases with screen size */}
       <body className="mx-auto min-h-screen min-w-[360px] max-w-5xl px-4 sm:px-6 lg:px-8">
         <Navbar />
         {children}
