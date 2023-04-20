@@ -34,6 +34,7 @@ export default function SeamlessSummary() {
           alt="Seamless CI/CD screenshot"
           className="rounded-xl shadow-lg sm:rounded-3xl"
           placeholder="blur"
+          quality={100}
           priority
         />
       </div>

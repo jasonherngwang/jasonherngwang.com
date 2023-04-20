@@ -9,7 +9,7 @@ interface ProjectProps {
   index: number;
 }
 
-export default async function Project({ project, index }: ProjectProps) {
+export default (async function Project({ project, index }: ProjectProps) {
   const {
     title,
     description,
@@ -36,6 +36,7 @@ export default async function Project({ project, index }: ProjectProps) {
           className="rounded-xl shadow sm:rounded-3xl"
           blurDataURL={blurDataURL}
           placeholder="blur"
+          quality={100}
         />
       </div>
       <div className="mt-6 flex flex-col justify-between sm:mt-12 sm:flex-row sm:items-center">
@@ -58,4 +59,4 @@ export default async function Project({ project, index }: ProjectProps) {
       <p className="mt-4 text-sm text-gray-500">{stack}</p>
     </div>
   );
-}
+} as unknown as (props: ProjectProps) => JSX.Element);

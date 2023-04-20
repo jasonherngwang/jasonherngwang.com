@@ -47,6 +47,7 @@ export default function Bio() {
           alt="Jason Wang"
           placeholder="blur"
           className="rounded-full border border-gray-200"
+          quality={100}
           priority
         />
       </div>
