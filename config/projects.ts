@@ -51,7 +51,8 @@ export const otherProjects: ProjectDetails[] = [
     title: 'I ❤️ LeetCode',
     description:
       'A LeetCode random problem selector and timer, for simulating being in the hot seat during interviews. I built this to learn Next.js, Prisma, and deploying to a DigitalOcean VPS.',
-    stack: 'Next.js, Prisma, Tailwind, Mongoose, DigitalOcean Droplet',
+    stack:
+      'Next.js, Prisma, Tailwind, Mongoose, PostgreSQL, DigitalOcean Droplet',
     imageName: 'love-leetcode.webp',
     imageAlt: 'Screenshot of Love LeetCode App',
     siteUrl: 'https://leetcode.jasonherngwang.com/',
