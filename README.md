@@ -1,14 +1,10 @@
-# Jason Wang
+![Jason Wang](/public/og-short.png)
 
-## Full-stack software engineer in Los Angeles, experienced in JavaScript, Ruby, React, Tailwind, Express, PostgreSQL, Docker, and AWS
+I'm currently looking for a software engineering role! Please reach out if you'd like to chat:
 
-I enjoy diving into complex domains and solving unstructured problems. I bring over a decade of experience in tackling engineering challenges, improving processes through automation, and leading cross-functional efforts.
+- Email: [jasonherngwang@gmail.com](mailto:jasonherngwang@gmail.com)
 
-I'm currently looking for a software engineering role! Please reach out if you'd like to chat: [jasonherngwang@gmail.com](mailto:jasonherngwang@gmail.com)
-
-[Resume](https://jasonherngwang.com/Jason_Wang_Resume.pdf)
-
-## Seamless CI/CD
+- [Link to Resume](https://jasonherngwang.com/Jason_Wang_Resume.pdf)
 
 Recently I created [Seamless](https://seamless-cicd.com), an open-source CI/CD pipeline for containerized microservices.
 
@@ -16,7 +12,7 @@ Seamless is an open-source, low-config CI/CD pipeline for containerized microser
 
 ![Seamless CI/CD](/public/images/seamless/seamless.webp)
 
-## This Website
+# This Website
 
 This is a simple website, but I still learned a lot while making it:
 - Learning from repos of [shadcn](https://github.com/shadcn), [leerob](https://github.com/leerob), and [steven-tey](https://github.com/steven-tey)
