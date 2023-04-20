@@ -35,13 +35,13 @@ export default function Seamless() {
           priority
         />
       </div>
-      <div className="mt-10 flex justify-center sm:mt-16">
+      <div className="mt-12 flex justify-center sm:mt-20">
         <a
           href="https://seamless-cicd.com"
           target="_blank"
-          className="group flex cursor-pointer items-center gap-x-1 no-underline sm:gap-x-2"
+          className="group flex cursor-pointer items-center gap-x-1 text-gray-700 no-underline sm:gap-x-2"
         >
-          <span className="sm:text-2xl">
+          <span className="group-hover:underline group-hover:underline-offset-4 sm:text-2xl">
             Read the <em>Seamless</em> Case Study
           </span>
           <ExternalLink className="h-4 w-4 sm:h-6 sm:w-6" />

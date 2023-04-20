@@ -11,7 +11,7 @@ export default function Home() {
       <Bio />
       <Separator className="my-12 sm:my-24" />
       <Seamless />
-      <Separator className="mb-2 mt-16 sm:mt-24" />
+      <Separator className="mb-2 mt-20 sm:mt-28" />
       <div className="mb-12 flex justify-end sm:mb-20 sm:text-xl">
         <Link
           href="/projects"
