@@ -1,14 +1,13 @@
 import Image from 'next/image';
 import architectureImage from '@/public/images/seamless/architecture.webp';
 import pipelineStagesImage from '@/public/images/seamless/pipeline-stages.webp';
-import { ArrowUpRight } from 'lucide-react';
+import { ExternalLink } from 'lucide-react';
 
-import Separator from '@/components/ui/separator';
 import SeamlessSummary from './seamless-summary';
 
 export default function Seamless() {
   return (
-    <section className="sm:text-xl">
+    <section>
       <SeamlessSummary />
       <p className="mt-10 sm:mt-16">
         When code is updated in GitHub, Seamless will automatically{' '}
@@ -36,17 +35,16 @@ export default function Seamless() {
           priority
         />
       </div>
-      <Separator className="mb-2 mt-12 sm:mt-20" />
-      <div className="mb-12 flex justify-end sm:mb-20">
+      <div className="mt-10 flex justify-center sm:mt-16">
         <a
           href="https://seamless-cicd.com"
           target="_blank"
-          className="group flex cursor-pointer items-center gap-x-1 no-underline"
+          className="group flex cursor-pointer items-center gap-x-1 no-underline sm:gap-x-2"
         >
-          <span>
+          <span className="sm:text-2xl">
             Read the <em>Seamless</em> Case Study
           </span>
-          <ArrowUpRight className="transition-transform group-hover:-translate-y-0.5 group-hover:translate-x-0.5" />
+          <ExternalLink className="h-4 w-4 sm:h-6 sm:w-6" />
         </a>
       </div>
     </section>

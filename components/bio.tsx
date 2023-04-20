@@ -3,7 +3,7 @@ import jasonAvatar from '@/public/images/avatars/jason.webp';
 
 export default function Bio() {
   return (
-    <section className="mt-8 flex gap-x-12 sm:mt-20 sm:text-xl">
+    <section className="mt-8 flex gap-x-12 sm:mt-20">
       {/* Bio text */}
       <div className="flex flex-col gap-y-3 sm:mt-2 sm:gap-y-6">
         <p>
