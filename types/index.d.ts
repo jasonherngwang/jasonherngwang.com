@@ -21,3 +21,11 @@ export type ProjectDetails = {
   githubUrl: string;
   blogUrl?: string;
 };
+
+export type PipelineStage = {
+  step: number;
+  title: string;
+  imageName: string;
+  purpose: string;
+  how: string;
+};
