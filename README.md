@@ -25,3 +25,4 @@ This is a simple personal website, but I learned a lot while making it:
 - Converting images to `.webp` so Lighthouse will stop scolding me. Using [`plaiceholder`](https://github.com/joe-bell/plaiceholder) for blurring images.
 - Using Husky to enforce conventional commit format.
 - Design inspo: [Onno Schwanen](https://onnoschwanen.com/), [Arda Karacizmeli](https://www.ardakaracizmeli.com/), [Diagram](https://diagram.com/)
+- Learning the basic of Framer Motion from [Build UI](https://buildui.com/)
