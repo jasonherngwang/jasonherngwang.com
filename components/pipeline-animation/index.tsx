@@ -8,6 +8,9 @@ import { AnimatePresence, motion } from 'framer-motion';
 import Separator from '../ui/separator';
 import { pipelineStages } from './stagesInfo';
 
+const placeholderImageBase64 =
+  'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAQAAAAnOwc2AAAAXklEQVR4AV3B0QnEIBBF0VuapdhJ0tkUpGFYP1aHRN6yhEDwHP5K+trwULOauX22qccl34CaL71NlUQzLboRWg0nXIsQ3bRoRklTb6dqBnw/9Zg6dm41NwsN71YSwA9ayaQhdqaOlAAAAABJRU5ErkJggg==';
+
 export default function PipelineAnimation() {
   const [step, setStep] = useState(1);
   const currentStage = pipelineStages[step - 1];
@@ -156,6 +159,8 @@ function Content({ currentStage, step, setStep }: ContentProps) {
               width={250}
               height={250}
               className="w-full rounded-full shadow-lg"
+              blurDataURL={placeholderImageBase64}
+              placeholder="blur"
               priority
             />
           </motion.div>
