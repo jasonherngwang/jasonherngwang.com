@@ -156,7 +156,7 @@ function Content({ currentStage, step, setStep }: ContentProps) {
               width={250}
               height={250}
               className="w-full rounded-full shadow-lg"
-              quality={100}
+              priority
             />
           </motion.div>
         </AnimatePresence>
