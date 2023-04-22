@@ -3,6 +3,7 @@ import architectureImage from '@/public/images/seamless/architecture.webp';
 import pipelineStagesImage from '@/public/images/seamless/pipeline-stages.webp';
 import { ExternalLink } from 'lucide-react';
 
+import PipelineAnimation from '@/components/pipeline-animation';
 import SeamlessSummary from './seamless-summary';
 
 export default function Seamless() {
@@ -14,7 +15,23 @@ export default function Seamless() {
         <em>source</em>, <em>test</em>, <em>build</em>, and <em>deploy</em> it,
         enabling developers to deliver software quickly and reliably.
       </p>
-      <div className="mt-8 block sm:mt-16 sm:px-8">
+      <div className="mt-8 hidden sm:mt-8 sm:block">
+        <p className="mb-4 hidden sm:block">
+          The following animation shows what Seamless does under the hood; click
+          {'"'}Next Stage{'"'} to advance. For more detail on each stage, please
+          read the{' '}
+          <a
+            href="https://seamless-cicd.com"
+            target="_blank"
+            className="underline-offset-2"
+          >
+            Case Study
+          </a>
+          .
+        </p>
+        <PipelineAnimation />
+      </div>
+      <div className="mt-8 block sm:mt-16 sm:hidden sm:px-8">
         <Image
           src={pipelineStagesImage}
           alt="Pipeline Stages"
