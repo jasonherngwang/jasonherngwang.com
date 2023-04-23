@@ -11,13 +11,7 @@ export default function Bio() {
           JavaScript, Ruby, React, Tailwind, Express, PostgreSQL, Docker, and
           AWS.
         </p>
-        <p>
-          I enjoy diving into complex domains and solving unstructured problems.
-          I bring over a decade of experience in tackling engineering
-          challenges, improving processes through automation, and leading
-          cross-functional efforts.
-        </p>
-        <p className="border-l-2 border-l-gray-400 pl-2 italic sm:border-l-4 sm:py-1 sm:pl-4">
+        <p className="border-l-2 border-l-indigo-500 pl-2 italic sm:border-l-4 sm:py-1 sm:pl-4">
           I{"'"}m currently looking for a software engineering role! Please
           reach out if you{"'"}d like to chat:{' '}
           <a
@@ -29,6 +23,13 @@ export default function Bio() {
           </a>
         </p>
         <p>
+          My favorite parts of engineering include diving into complex domains,
+          learning new technologies and skills, and collaborating with teams to
+          solve unstructured problems. I bring over a decade of experience in
+          tackling engineering challenges, improving processes through
+          automation, and leading cross-functional efforts.
+        </p>
+        <p>
           Recently I created{' '}
           <a
             href="https://seamless-cicd.com"
@@ -37,7 +38,8 @@ export default function Bio() {
           >
             Seamless
           </a>
-          , an open-source CI/CD pipeline for containerized microservices.
+          , an open-source CI/CD pipeline for containerized microservices
+          deployed to ECS Fargate.
         </p>
       </div>
       {/* Avatar, hidden on mobile */}
