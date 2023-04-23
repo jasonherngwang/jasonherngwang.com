@@ -20,7 +20,7 @@ export const pipelineStages: PipelineStage[] = [
     title: 'Unit Test',
     imageName: 'unit-test.webp',
     purpose: "Test the service's functionality, in isolation.",
-    how: 'Seamless executes the user-provided unit test command, which could be "npm run test." This validates some functionality of this individual service, but not in conjunction with any of the other services it depends on; that is addressed in the Integration Test Stage',
+    how: 'Seamless executes the user-provided unit test command, which could be "npm run test." This validates some functionality of this individual service, but not in conjunction with any of the other services it depends on; that is addressed in the Integration Test Stage.',
   },
   {
     step: 4,
