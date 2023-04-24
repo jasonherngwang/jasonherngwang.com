@@ -20,10 +20,10 @@ export default function PipelineAnimation() {
     <>
       <AnimationPointer />
       <div className="mx-auto hidden w-full max-w-5xl flex-col items-center rounded-3xl border-2 border-indigo-500 bg-white p-12 py-8 shadow-lg sm:flex">
-        <h2 className="mt-2 shrink-0 font-semibold text-indigo-800 sm:text-2xl md:text-3xl">
-          Stages of the <em>Seamless CI/CD</em> Pipeline
+        <h2 className="mt-2 shrink-0 font-semibold text-indigo-700 sm:text-2xl md:text-3xl">
+          Stages of the <em>Seamless</em> CI/CD Pipeline
         </h2>
-        <div className="mt-8 flex w-full items-start justify-between">
+        <div className="mt-8 grid w-full grid-cols-7 items-start">
           {pipelineStages.map((stage) => (
             <Step
               key={stage.step}
@@ -64,7 +64,7 @@ function Step({ step, currentStep, title, setStep }: StepProps) {
     <button
       type="button"
       onClick={() => setStep(step)}
-      className="rounded-md p-2 hover:bg-indigo-50 lg:py-3 xl:py-5"
+      className="rounded-md px-1 py-4 hover:bg-indigo-50"
     >
       <motion.div
         animate={status}
@@ -104,7 +104,7 @@ function Step({ step, currentStep, title, setStep }: StepProps) {
         <motion.span
           transition={titleTransition}
           variants={titleVariants}
-          className="text-center text-base font-semibold"
+          className="text-center text-sm font-semibold lg:text-base"
         >
           {title}
         </motion.span>
