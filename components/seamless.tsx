@@ -18,8 +18,8 @@ export default function Seamless() {
       <div className="mt-10 hidden sm:mt-8 sm:block">
         <p className="mb-6 hidden sm:block">
           The following animation shows what Seamless does under the hood; click
-          {'"'}Next Stage{'"'} to advance. For more detail on each stage, please
-          read the{' '}
+          {' "'}Next Stage{'"'} to advance. For more detail on each stage,
+          please read the{' '}
           <a
             href="https://seamless-cicd.com"
             target="_blank"
