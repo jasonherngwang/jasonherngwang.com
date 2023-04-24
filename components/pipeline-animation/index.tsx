@@ -6,6 +6,7 @@ import { PipelineStage } from '@/types';
 import { AnimatePresence, motion } from 'framer-motion';
 
 import Separator from '../ui/separator';
+import AnimationPointer from './animation-pointer';
 import { pipelineStages } from './stagesInfo';
 
 const placeholderImageBase64 =
@@ -16,27 +17,30 @@ export default function PipelineAnimation() {
   const currentStage = pipelineStages[step - 1];
 
   return (
-    <div className="mx-auto hidden w-full max-w-5xl flex-col items-center rounded-3xl border-2 border-indigo-500 bg-white p-12 py-8 shadow-lg sm:flex">
-      <h2 className="mt-2 shrink-0 font-semibold text-indigo-800 sm:text-2xl md:text-3xl">
-        Stages of the <em>Seamless CI/CD</em> Pipeline
-      </h2>
-      <div className="mt-12 flex w-full items-start justify-between gap-x-2 rounded">
-        {pipelineStages.map((stage) => (
-          <Step
-            key={stage.step}
-            step={stage.step}
-            currentStep={step}
-            title={pipelineStages[stage.step - 1].title}
-          />
-        ))}
+    <>
+      <AnimationPointer />
+      <div className="mx-auto hidden w-full max-w-5xl flex-col items-center rounded-3xl border-2 border-indigo-500 bg-white p-12 py-8 shadow-lg sm:flex">
+        <h2 className="mt-2 shrink-0 font-semibold text-indigo-800 sm:text-2xl md:text-3xl">
+          Stages of the <em>Seamless CI/CD</em> Pipeline
+        </h2>
+        <div className="mt-12 flex w-full items-start justify-between gap-x-2 rounded">
+          {pipelineStages.map((stage) => (
+            <Step
+              key={stage.step}
+              step={stage.step}
+              currentStep={step}
+              title={pipelineStages[stage.step - 1].title}
+            />
+          ))}
+        </div>
+        <Separator className="my-10" />
+        <Content
+          currentStage={currentStage}
+          step={currentStage.step}
+          setStep={setStep}
+        />
       </div>
-      <Separator className="my-10" />
-      <Content
-        currentStage={currentStage}
-        step={currentStage.step}
-        setStep={setStep}
-      />
-    </div>
+    </>
   );
 }
 
