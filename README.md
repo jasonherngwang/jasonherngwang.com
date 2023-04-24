@@ -15,6 +15,7 @@ Seamless is an open-source, low-config CI/CD pipeline for containerized microser
 ## This Website
 
 This is a simple personal website, but I learned a lot while making it:
+
 - Learning from the repos of [shadcn](https://github.com/shadcn), [leerob](https://github.com/leerob), and [steven-tey](https://github.com/steven-tey).
 - Trying out the `app` dir (basic usage).
 - Setting up metadata in `layout`, and learning about OpenGraph and `og:image`.
@@ -26,3 +27,4 @@ This is a simple personal website, but I learned a lot while making it:
 - Using Husky to enforce conventional commit format.
 - Design inspo: [Onno Schwanen](https://onnoschwanen.com/), [Arda Karacizmeli](https://www.ardakaracizmeli.com/), [Diagram](https://diagram.com/)
 - Learning the basics of Framer Motion from [Build UI](https://buildui.com/)
+- Learning about IntersectionObserver from Josh Comeau's [The Joy of React](https://www.joyofreact.com/)
