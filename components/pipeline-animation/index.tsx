@@ -23,17 +23,18 @@ export default function PipelineAnimation() {
         <h2 className="mt-2 shrink-0 font-semibold text-indigo-800 sm:text-2xl md:text-3xl">
           Stages of the <em>Seamless CI/CD</em> Pipeline
         </h2>
-        <div className="mt-12 flex w-full items-start justify-between gap-x-2 rounded">
+        <div className="mt-8 flex w-full items-start justify-between">
           {pipelineStages.map((stage) => (
             <Step
               key={stage.step}
               step={stage.step}
               currentStep={step}
               title={pipelineStages[stage.step - 1].title}
+              setStep={setStep}
             />
           ))}
         </div>
-        <Separator className="my-10" />
+        <Separator className="mb-10 mt-6" />
         <Content
           currentStage={currentStage}
           step={currentStage.step}
@@ -48,9 +49,10 @@ interface StepProps {
   step: number;
   currentStep: number;
   title: string;
+  setStep: React.Dispatch<React.SetStateAction<number>>;
 }
 
-function Step({ step, currentStep, title }: StepProps) {
+function Step({ step, currentStep, title, setStep }: StepProps) {
   const status =
     currentStep === step
       ? 'active'
@@ -59,49 +61,55 @@ function Step({ step, currentStep, title }: StepProps) {
       : 'complete';
 
   return (
-    <motion.div
-      animate={status}
-      initial={status}
-      className="flex w-32 flex-col items-center gap-y-2"
+    <button
+      type="button"
+      onClick={() => setStep(step)}
+      className="rounded-md p-2 hover:bg-indigo-50 lg:py-3 xl:py-5"
     >
-      <div className="relative">
-        <motion.div
-          transition={rippleTransition}
-          variants={rippleVariants}
-          className="absolute inset-0 rounded-full"
-        />
-
-        <motion.div
-          variants={backgroundVariants}
-          transition={backgroundTransition}
-          className="relative flex h-8 w-8 items-center justify-center rounded-full border-2 border-gray-400 bg-white font-semibold text-gray-500"
-        >
-          <div className="relative flex items-center justify-center">
-            <AnimatePresence>
-              {status === 'complete' ? (
-                <CheckIcon className="h-5 w-5 text-white" />
-              ) : (
-                <motion.span
-                  key="step"
-                  animate={{ opacity: 1 }}
-                  exit={{ scale: 0.5, opacity: 0 }}
-                  className="absolute font-bold"
-                >
-                  {step}
-                </motion.span>
-              )}
-            </AnimatePresence>
-          </div>
-        </motion.div>
-      </div>
-      <motion.span
-        transition={titleTransition}
-        variants={titleVariants}
-        className="text-center text-base"
+      <motion.div
+        animate={status}
+        initial={status}
+        className="flex flex-col items-center gap-y-2"
       >
-        {title}
-      </motion.span>
-    </motion.div>
+        <div className="relative">
+          <motion.div
+            transition={rippleTransition}
+            variants={rippleVariants}
+            className="absolute inset-0 rounded-full"
+          />
+
+          <motion.div
+            variants={backgroundVariants}
+            transition={backgroundTransition}
+            className="relative flex h-8 w-8 items-center justify-center rounded-full border-2 border-gray-400 bg-white font-semibold text-gray-500"
+          >
+            <div className="relative flex items-center justify-center">
+              <AnimatePresence>
+                {status === 'complete' ? (
+                  <CheckIcon className="h-5 w-5 text-white" />
+                ) : (
+                  <motion.span
+                    key="step"
+                    animate={{ opacity: 1 }}
+                    exit={{ scale: 0.5, opacity: 0 }}
+                    className="absolute font-bold"
+                  >
+                    {step}
+                  </motion.span>
+                )}
+              </AnimatePresence>
+            </div>
+          </motion.div>
+        </div>
+        <motion.span
+          transition={titleTransition}
+          variants={titleVariants}
+          className="text-center text-base font-semibold"
+        >
+          {title}
+        </motion.span>
+      </motion.div>
+    </button>
   );
 }
 
@@ -170,7 +178,7 @@ function Content({ currentStage, step, setStep }: ContentProps) {
           </motion.div>
         </AnimatePresence>
       </div>
-      <div className="col-span-3 flex min-h-[360px] flex-col justify-between">
+      <div className="col-span-3 flex min-h-[350px] flex-col justify-between">
         <div>
           <h2 className="mb-2 font-bold uppercase tracking-wider text-indigo-700">
             Purpose
@@ -186,7 +194,7 @@ function Content({ currentStage, step, setStep }: ContentProps) {
               transition={{
                 ease: 'easeOut',
                 type: 'tween',
-                opacity: { duration: 0.7 },
+                opacity: { duration: 0.4 },
               }}
               className="text-lg leading-relaxed"
             >
@@ -207,7 +215,7 @@ function Content({ currentStage, step, setStep }: ContentProps) {
               transition={{
                 ease: 'easeOut',
                 type: 'tween',
-                opacity: { duration: 0.5 },
+                opacity: { duration: 0.4 },
               }}
               className="max-w-prose pr-4 text-lg leading-relaxed"
             >
@@ -251,15 +259,12 @@ const t = (v: number) => x * v;
 const titleTransition = { duration: t(0.2) };
 const titleVariants = {
   inactive: {
-    fontWeight: 500,
-    color: 'var(--gray-600)',
+    color: 'var(--gray-400)',
   },
   active: {
-    fontWeight: 700,
     color: 'var(--indigo-700)',
   },
   complete: {
-    fontWeight: 500,
     color: 'var(--gray-600)',
   },
 };

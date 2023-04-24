@@ -31,7 +31,7 @@ export default function AnimationPointer() {
         <div className="flex w-[230px] items-center gap-x-2 rounded-2xl bg-indigo-50 px-4 py-3">
           <div className="text-3xl">✨</div>
           <div className="pointer-events-none text-base font-semibold leading-tight text-indigo-700">
-            Learn how Seamless works!
+            Here{"'"}s how Seamless works!
           </div>
           <button
             type="button"
