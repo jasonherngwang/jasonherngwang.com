@@ -32,7 +32,7 @@ export default function Bio() {
         <p>
           Recently I created{' '}
           <a
-            href="https://seamless-cicd.com"
+            href="https://seamless-cicd.com/"
             target="_blank"
             className="font-semibold text-indigo-700 underline-offset-2"
           >

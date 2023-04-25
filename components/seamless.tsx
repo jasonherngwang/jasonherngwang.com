@@ -17,11 +17,11 @@ export default function Seamless() {
       </p>
       <div className="mt-10 hidden sm:mt-8 sm:block">
         <p className="mb-6 hidden sm:block">
-          The following animation shows what Seamless does under the hood; click
+          The following section shows what Seamless does under the hood; click
           {' "'}Next Stage{'"'} to advance. For more detail on each stage,
           please read the{' '}
           <a
-            href="https://seamless-cicd.com"
+            href="https://seamless-cicd.com/case-study"
             target="_blank"
             className="underline-offset-2"
           >
@@ -56,7 +56,7 @@ export default function Seamless() {
       </div>
       <div className="mt-16 flex justify-center sm:mt-20">
         <a
-          href="https://seamless-cicd.com"
+          href="https://seamless-cicd.com/case-study"
           target="_blank"
           className="group flex cursor-pointer items-center gap-x-1 text-gray-700 no-underline sm:gap-x-2"
         >
