@@ -15,7 +15,7 @@ export const otherProjects: ProjectDetails[] = [
   {
     title: 'In Season',
     description:
-      'An app for tracking what fruits and vegetables are in season right now. I built this to learn of AWS infrastructure, containerization with Docker Compose, and E2E testing with Cypress.',
+      'An app for tracking what fruits and vegetables are in season right now. I built this to learn AWS infrastructure, containerization with Docker Compose, and E2E testing with Cypress.',
     stack:
       'React, Tailwind, Express, TypeScript, MongoDB, Mongoose, Jest, Cypress, Docker Compose, Nginx, AWS SDK, EC2, S3, CloudFront',
     imageName: 'in-season.webp',
