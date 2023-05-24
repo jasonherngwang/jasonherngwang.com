@@ -43,7 +43,7 @@ export default function Seamless() {
       <p className="mt-10 sm:mt-16">
         Seamless is a cloud-native solution built on AWS. It uses a Step
         Functions state machine for task management, and ECS on EC2 for task
-        execution. All tasks share data via a Docker volume on EFS. A WebSockets
+        execution. All tasks share data via a Docker volume on EFS. A WebSocket
         API Gateway streams logs and status updates to the dashboard.
       </p>
       <div className="mt-10 block sm:mt-16 sm:px-8">

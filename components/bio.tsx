@@ -8,10 +8,10 @@ export default function Bio() {
       <div className="flex flex-col gap-y-3 sm:mt-2 sm:gap-y-6">
         <p>
           Full-stack software engineer in Los Angeles, experienced in
-          JavaScript, Ruby, React, Tailwind, Express, PostgreSQL, Docker, and
-          AWS.
+          JavaScript, Ruby, Python, React, Tailwind, Express, PostgreSQL,
+          Docker, and AWS.
         </p>
-        <p className="border-l-2 border-l-indigo-500 pl-2 italic sm:border-l-4 sm:py-1 sm:pl-4">
+        {/* <p className="border-l-2 border-l-indigo-500 pl-2 italic sm:border-l-4 sm:py-1 sm:pl-4">
           I{"'"}m currently looking for a software engineering role! Please
           reach out if you{"'"}d like to chat:{' '}
           <a
@@ -21,13 +21,13 @@ export default function Bio() {
           >
             jasonherngwang@gmail.com
           </a>
-        </p>
+        </p> */}
         <p>
-          My favorite parts of engineering include diving into complex domains,
-          learning new technologies and skills, and collaborating with teams to
-          solve unstructured problems. I bring over a decade of experience in
-          tackling engineering challenges, improving processes through
-          automation, and leading cross-functional efforts.
+          I enjoy diving into complex domains, learning new technologies and
+          skills, and collaborating with teams to solve unstructured problems. I
+          bring over a decade of experience in tackling engineering challenges,
+          improving processes through automation, and leading cross-functional
+          efforts.
         </p>
         <p>
           Recently I created{' '}

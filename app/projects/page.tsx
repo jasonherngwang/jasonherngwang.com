@@ -21,9 +21,6 @@ export default function Projects() {
         <h1 className="text-2xl font-semibold text-gray-600 sm:text-4xl">
           Other Projects
         </h1>
-        <p className="mt-2">
-          Personal and group projects created during Launch School
-        </p>
       </div>
       {otherProjects.map((project, index) => (
         <Project key={project.title} project={project} index={index} />
