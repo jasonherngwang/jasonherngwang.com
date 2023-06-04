@@ -79,6 +79,7 @@ export default function Chat() {
       id="seamie"
       className="relative mx-auto flex h-[500px] max-w-4xl flex-col rounded-3xl border-2 border-indigo-500 shadow-lg sm:h-[700px]"
     >
+      <div className="h-3" />
       <ChatHeader />
       <ChatMessages
         messages={messages}
