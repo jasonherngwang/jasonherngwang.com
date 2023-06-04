@@ -29,3 +29,10 @@ export type PipelineStage = {
   purpose: string;
   how: string;
 };
+
+export type ChatMessageType = {
+  id: string;
+  sender: string;
+  message: string;
+  sources?: string[];
+};

@@ -3,8 +3,9 @@ import architectureImage from '@/public/images/seamless/architecture.webp';
 import pipelineStagesImage from '@/public/images/seamless/pipeline-stages.webp';
 import { ExternalLink } from 'lucide-react';
 
+import Chat from '@/components/chat';
 import PipelineAnimation from '@/components/pipeline-animation';
-import SeamlessSummary from './seamless-summary';
+import SeamlessSummary from '@/components/seamless-summary';
 
 export default function Seamless() {
   return (
@@ -53,6 +54,12 @@ export default function Seamless() {
           placeholder="blur"
           quality={100}
         />
+      </div>
+      <div className="mt-10 sm:mt-16 sm:px-8">
+        <p className="mb-6">
+          Have any questions? Ask Seamie, your friendly AI assistant!
+        </p>
+        <Chat />
       </div>
       <div className="mt-16 flex justify-center sm:mt-20">
         <a
