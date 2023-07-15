@@ -4,7 +4,7 @@ export const otherProjects: ProjectDetails[] = [
   {
     title: 'JaguarBin',
     description:
-      'A tool for collecting and inspecting HTTP requests and webhooks. We built this to learn Nginx configuration, WebSockets, MERN, and cron jobs.',
+      'Tool for collecting and inspecting HTTP requests and webhooks',
     stack:
       'socket.io, React, Tailwind, Express, TypeScript, MongoDB, PostgreSQL, Nginx, DigitalOcean Droplet',
     imageName: 'jaguarbin.webp',
@@ -15,7 +15,7 @@ export const otherProjects: ProjectDetails[] = [
   {
     title: 'In Season',
     description:
-      'An app for tracking what fruits and vegetables are in season right now. I built this to learn AWS infrastructure, containerization with Docker Compose, and E2E testing with Cypress.',
+      'App for tracking seasonal fruits and vegetables in Southern California',
     stack:
       'React, Tailwind, Express, TypeScript, MongoDB, Mongoose, Jest, Cypress, Docker Compose, Nginx, AWS SDK, EC2, S3, CloudFront',
     imageName: 'in-season.webp',
@@ -28,7 +28,7 @@ export const otherProjects: ProjectDetails[] = [
   {
     title: 'Eight Wonders',
     description:
-      'A flight path optimizer that finds the shortest route connecting up to 8 airports. I created this after learning Ruby and web development fundamentals during the Launch School Core program.',
+      'Flight path optimizer that finds the shortest route connecting up to 8 airports',
     stack: 'Ruby, Sinatra, PostgreSQL, ERB, HTML, CSS, fly.io',
     imageName: 'eight-wonders.webp',
     imageAlt: 'Screenshot of Eight Wonders App',
@@ -39,8 +39,7 @@ export const otherProjects: ProjectDetails[] = [
   },
   {
     title: 'Roar! Store',
-    description:
-      'We created this shopping cart app to practice React, custom hooks for data fetching, and mock testing with Jest.',
+    description: 'Shopping cart app with custom hooks for data fetching',
     stack: 'React, Tailwind, Jest, Express, MongoDB',
     imageName: 'roar-store.webp',
     imageAlt: 'Screenshot of Roar! Store App',
@@ -49,8 +48,7 @@ export const otherProjects: ProjectDetails[] = [
   },
   {
     title: 'I ❤️ LeetCode',
-    description:
-      'A LeetCode random problem selector and countdown timer, for simulating pressure on timed assessments. I built this to learn Next.js, Prisma, and deploying to a DigitalOcean VPS.',
+    description: 'LeetCode random problem selector and countdown timer',
     stack:
       'Next.js, Prisma, Tailwind, Mongoose, PostgreSQL, DigitalOcean Droplet',
     imageName: 'love-leetcode.webp',
