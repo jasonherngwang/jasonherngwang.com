@@ -7,9 +7,18 @@ export default function Bio() {
       {/* Bio text */}
       <div className="flex flex-col gap-y-3 sm:mt-2 sm:gap-y-6">
         <p>
-          Full-stack software engineer in Los Angeles, experienced in
-          JavaScript, Ruby, Python, React, Tailwind, Express, PostgreSQL,
-          Docker, and AWS.
+          Full-stack software engineer at{' '}
+          <a
+            href="https://coherehealth.com/"
+            target="_blank"
+            className="text-[#EA1D63] underline-offset-2 hover:text-[#F83275]"
+          >
+            Cohere Health
+          </a>
+          , striving to improve the patient healthcare experience by
+          streamlining the prior authorization process. Experienced in
+          JavaScript, Python, React, Tailwind, Express, PostgreSQL, MongoDB,
+          Docker, and AWS. Based in Los Angeles.
         </p>
         {/* <p className="border-l-2 border-l-indigo-500 pl-2 italic sm:border-l-4 sm:py-1 sm:pl-4">
           I{"'"}m currently looking for a software engineering role! Please
@@ -29,7 +38,7 @@ export default function Bio() {
           improving processes through automation, and leading cross-functional
           efforts.
         </p>
-        <p>
+        {/* <p>
           Recently I created{' '}
           <a
             href="https://seamless-cicd.com/"
@@ -40,7 +49,7 @@ export default function Bio() {
           </a>
           , an open-source CI/CD pipeline for containerized microservices
           deployed to ECS Fargate.
-        </p>
+        </p> */}
       </div>
       {/* Avatar, hidden on mobile */}
       <div className="hidden w-[170px] shrink-0 sm:block">
