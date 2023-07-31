@@ -14,11 +14,11 @@ export type NavbarItem = {
 export type ProjectDetails = {
   title: string;
   description: string;
-  stack: string;
+  stack?: string;
   imageName: string;
   imageAlt: string;
-  siteUrl: string;
-  githubUrl: string;
+  siteUrl?: string;
+  githubUrl?: string;
   blogUrl?: string;
 };
 

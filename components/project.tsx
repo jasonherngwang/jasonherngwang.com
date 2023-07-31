@@ -42,12 +42,16 @@ export default (async function Project({ project, index }: ProjectProps) {
       <div className="mt-6 flex flex-col justify-between sm:mt-12 sm:flex-row sm:items-center">
         <h2 className="text-xl font-bold sm:text-2xl">{title}</h2>
         <div className="mt-2 flex gap-x-2 text-sm sm:mt-0 sm:gap-x-6 sm:text-lg">
-          <a href={siteUrl} target="_blank">
-            Website
-          </a>
-          <a href={githubUrl} target="_blank">
-            GitHub
-          </a>
+          {siteUrl && (
+            <a href={siteUrl} target="_blank">
+              Website
+            </a>
+          )}
+          {githubUrl && (
+            <a href={githubUrl} target="_blank">
+              GitHub
+            </a>
+          )}
           {blogUrl && (
             <a href={blogUrl} target="_blank">
               Blog Post

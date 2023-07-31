@@ -9,7 +9,7 @@ export const otherProjects: ProjectDetails[] = [
       'socket.io, React, Tailwind, Express, TypeScript, MongoDB, PostgreSQL, Nginx, DigitalOcean Droplet',
     imageName: 'jaguarbin.webp',
     imageAlt: 'Screenshot of JaguarBin App',
-    siteUrl: 'https://jaguarbin.teamjaguar.org/',
+    // siteUrl: 'https://jaguarbin.teamjaguar.org/',
     githubUrl: 'https://github.com/ls-jre/jaguarbin',
   },
   {
@@ -43,7 +43,7 @@ export const otherProjects: ProjectDetails[] = [
     stack: 'React, Tailwind, Jest, Express, MongoDB',
     imageName: 'roar-store.webp',
     imageAlt: 'Screenshot of Roar! Store App',
-    siteUrl: 'https://roar-store.teamjaguar.org/',
+    // siteUrl: 'https://roar-store.teamjaguar.org/',
     githubUrl: 'https://github.com/ls-jre/roar-store',
   },
   {
