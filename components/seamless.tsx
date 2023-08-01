@@ -55,12 +55,12 @@ export default function Seamless() {
           quality={100}
         />
       </div>
-      <div className="mt-10 sm:mt-16 sm:px-8">
+      {/* <div className="mt-10 sm:mt-16 sm:px-8">
         <p className="mb-6">
           Have any questions? Ask Seamie, your friendly AI assistant!
         </p>
         <Chat />
-      </div>
+      </div> */}
       <div className="mt-16 flex justify-center sm:mt-20">
         <a
           href="https://seamless-cicd.com/case-study"

@@ -53,7 +53,7 @@ export const otherProjects: ProjectDetails[] = [
       'Next.js, Prisma, Tailwind, Mongoose, PostgreSQL, DigitalOcean Droplet',
     imageName: 'love-leetcode.webp',
     imageAlt: 'Screenshot of Love LeetCode App',
-    siteUrl: 'https://leetcode.jasonherngwang.com/',
+    // siteUrl: 'https://leetcode.jasonherngwang.com/',
     githubUrl: 'https://github.com/jasonherngwang/love-leetcode',
   },
 ];
