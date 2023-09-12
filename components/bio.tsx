@@ -16,9 +16,13 @@ export default function Bio() {
             Cohere Health
           </a>
           , striving to improve the patient healthcare experience by
-          streamlining the prior authorization process. Experienced in
-          JavaScript, Python, React, Tailwind, Express, PostgreSQL, MongoDB,
-          Docker, and AWS. Based in Los Angeles.
+          streamlining the prior authorization process.
+        </p>
+        <p>
+          Enthusiastic about collaborating with product and design to deliver
+          useful and efficient solutions for users. Experienced in TypeScript,
+          Python, Java, React, Tailwind, Express, Postgres, Mongo, Docker, and
+          AWS. Based in Los Angeles.
         </p>
         {/* <p className="border-l-2 border-l-indigo-500 pl-2 italic sm:border-l-4 sm:py-1 sm:pl-4">
           I{"'"}m currently looking for a software engineering role! Please
@@ -31,13 +35,13 @@ export default function Bio() {
             jasonherngwang@gmail.com
           </a>
         </p> */}
-        <p>
+        {/* <p>
           I enjoy diving into complex domains, learning new technologies and
           skills, and collaborating with teams to solve unstructured problems. I
           bring over a decade of experience in tackling engineering challenges,
           improving processes through automation, and leading cross-functional
           efforts.
-        </p>
+        </p> */}
         {/* <p>
           Recently I created{' '}
           <a
