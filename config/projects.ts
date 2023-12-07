@@ -20,7 +20,7 @@ export const otherProjects: ProjectDetails[] = [
       'React, Tailwind, Express, TypeScript, MongoDB, Mongoose, Jest, Cypress, Docker Compose, Nginx, AWS SDK, EC2, S3, CloudFront',
     imageName: 'in-season.webp',
     imageAlt: 'Screenshot of In Season App',
-    siteUrl: 'https://in-season-now.com/',
+    // siteUrl: 'https://in-season-now.com/',
     githubUrl: 'https://github.com/jasonherngwang/in-season-frontend',
     blogUrl:
       'https://medium.com/@jasonherngwang/using-jit-learning-to-build-an-app-during-launch-schools-capstone-prep-2a67e2023454',
