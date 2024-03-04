@@ -24,36 +24,6 @@ export default function Bio() {
           Python, Java, React, Tailwind, Express, Postgres, Mongo, Docker, and
           AWS. Based in Los Angeles.
         </p>
-        {/* <p className="border-l-2 border-l-indigo-500 pl-2 italic sm:border-l-4 sm:py-1 sm:pl-4">
-          I{"'"}m currently looking for a software engineering role! Please
-          reach out if you{"'"}d like to chat:{' '}
-          <a
-            href="mailto:jasonherngwang@gmail.com"
-            target="_blank"
-            className="underline-offset-2"
-          >
-            jasonherngwang@gmail.com
-          </a>
-        </p> */}
-        {/* <p>
-          I enjoy diving into complex domains, learning new technologies and
-          skills, and collaborating with teams to solve unstructured problems. I
-          bring over a decade of experience in tackling engineering challenges,
-          improving processes through automation, and leading cross-functional
-          efforts.
-        </p> */}
-        {/* <p>
-          Recently I created{' '}
-          <a
-            href="https://seamless-cicd.com/"
-            target="_blank"
-            className="font-semibold text-indigo-700 underline-offset-2"
-          >
-            Seamless
-          </a>
-          , an open-source CI/CD pipeline for containerized microservices
-          deployed to ECS Fargate.
-        </p> */}
       </div>
       {/* Avatar, hidden on mobile */}
       <div className="hidden w-[170px] shrink-0 sm:block">

@@ -1,16 +1,16 @@
 import { NavbarItem } from '@/types';
 
 export const navbarItems: NavbarItem[] = [
-  {
-    title: 'Resume',
-    href: '/Jason_Wang_Resume.pdf',
-    external: true,
-  },
-  {
-    title: 'Email',
-    href: 'mailto:jasonherngwang@gmail.com',
-    external: true,
-  },
+  // {
+  //   title: 'Resume',
+  //   href: '/Jason_Wang_Resume.pdf',
+  //   external: true,
+  // },
+  // {
+  //   title: 'Email',
+  //   href: 'mailto:jasonherngwang@gmail.com',
+  //   external: true,
+  // },
   {
     title: 'GitHub',
     href: 'https://github.com/jasonherngwang',
