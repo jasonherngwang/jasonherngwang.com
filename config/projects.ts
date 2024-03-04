@@ -6,7 +6,7 @@ export const otherProjects: ProjectDetails[] = [
     description:
       'Tool for collecting and inspecting HTTP requests and webhooks',
     stack:
-      'socket.io, React, Tailwind, Express, TypeScript, MongoDB, PostgreSQL, Nginx, DigitalOcean Droplet',
+      'socket.io, React, Tailwind, Express, TypeScript, MongoDB, PostgreSQL, Nginx, DigitalOcean',
     imageName: 'jaguarbin.webp',
     imageAlt: 'Screenshot of JaguarBin App',
     // siteUrl: 'https://jaguarbin.teamjaguar.org/',
@@ -49,8 +49,7 @@ export const otherProjects: ProjectDetails[] = [
   {
     title: 'I ❤️ LeetCode',
     description: 'LeetCode random problem selector and countdown timer',
-    stack:
-      'Next.js, Prisma, Tailwind, Mongoose, PostgreSQL, DigitalOcean Droplet',
+    stack: 'Next.js, Prisma, Tailwind, Mongoose, PostgreSQL, DigitalOcean',
     imageName: 'love-leetcode.webp',
     imageAlt: 'Screenshot of Love LeetCode App',
     // siteUrl: 'https://leetcode.jasonherngwang.com/',

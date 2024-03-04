@@ -22,11 +22,11 @@ export default function SeamlessSummary() {
         </GradientButtonLink>
       </div>
       <p className="mt-8">
-        Recently I created Seamless, an open-source, low-config CI/CD pipeline
-        for containerized microservice applications on ECS Fargate. It features
-        a CLI for AWS deployment, a real-time dashboard, integration testing
-        with Docker Compose, rollbacks, log storage in Redis, and parallel
-        execution of pipelines.
+        I created Seamless, an open-source, low-config CI/CD pipeline for
+        containerized microservice applications on ECS Fargate. It features a
+        CLI for AWS deployment, a real-time dashboard, integration testing with
+        Docker Compose, rollbacks, log storage in Redis, and parallel execution
+        of pipelines.
       </p>
       <div className="mt-8 block sm:mt-16">
         <Image

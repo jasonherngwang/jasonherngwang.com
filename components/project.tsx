@@ -60,7 +60,7 @@ export default (async function Project({ project, index }: ProjectProps) {
         </div>
       </div>
       <p className="mt-4">{description}</p>
-      {/* <p className="mt-4 text-sm text-gray-500">{stack}</p> */}
+      <p className="mt-4 text-sm text-gray-500">{stack}</p>
     </div>
   );
 } as unknown as (props: ProjectProps) => JSX.Element);
