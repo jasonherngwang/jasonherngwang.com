@@ -3,7 +3,7 @@ import { NavbarItem } from '@/types';
 export const navbarItems: NavbarItem[] = [
   // {
   //   title: 'Resume',
-  //   href: '/Jason_Wang_Resume.pdf',
+  //   href: '/Jason_Wang_Resume_OLD.pdf',
   //   external: true,
   // },
   // {

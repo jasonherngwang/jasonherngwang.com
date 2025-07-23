@@ -15,14 +15,14 @@ export default function Bio() {
           >
             Cohere Health
           </a>
-          , striving to improve the patient healthcare experience by
+          . We&apos;re improving the patient healthcare experience by
           streamlining the prior authorization process.
         </p>
         <p>
           Enthusiastic about collaborating with product and design to deliver
-          useful and efficient solutions for users. Experienced in TypeScript,
-          Python, Java, React, Tailwind, Express, Postgres, Mongo, Docker, and
-          AWS. Based in Los Angeles.
+          what clients really need. Experienced in TypeScript, React, Java,
+          Groovy, Grails, Python, Tailwind, Express, Postgres, Mongo, Docker,
+          Kafka, and AWS.
         </p>
       </div>
       {/* Avatar, hidden on mobile */}

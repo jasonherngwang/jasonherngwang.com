@@ -2,6 +2,15 @@ import { ProjectDetails } from '@/types';
 
 export const otherProjects: ProjectDetails[] = [
   {
+    title: 'rowanwang.com',
+    description: "My baby boy's website!",
+    stack: 'just vibes',
+    imageName: 'rowanwang.com.png',
+    imageAlt: 'Screenshot of rowanwang.com',
+    siteUrl: 'https://rowanwang.com/',
+    githubUrl: 'https://github.com/jasonherngwang/rowanwang.com',
+  },
+  {
     title: 'JaguarBin',
     description:
       'Tool for collecting and inspecting HTTP requests and webhooks',
