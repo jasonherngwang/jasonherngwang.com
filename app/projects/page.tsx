@@ -3,7 +3,7 @@ import { ArrowLeft, ArrowUp } from 'lucide-react';
 
 import { otherProjects } from '@/config/projects';
 import Project from '@/components/project';
-import SeamlessSummary from '@/components/seamless-summary';
+// import SeamlessSummary from '@/components/seamless-summary';
 import Separator from '@/components/ui/separator';
 
 export const metadata = {
@@ -13,13 +13,13 @@ export const metadata = {
 export default function Projects() {
   return (
     <main>
-      <section className="mt-12 sm:mt-24">
+      {/* <section className="mt-12 sm:mt-24">
         <SeamlessSummary />
       </section>
-      <Separator className="my-16 sm:my-24" />
-      <div className="mb-10 mt-2 sm:mb-16">
+      <Separator className="my-16 sm:my-24" /> */}
+      <div className="mb-10 mt-12 sm:mb-16 sm:mt-24">
         <h1 className="text-2xl font-semibold text-gray-600 sm:text-4xl">
-          Other Projects
+          Personal Software
         </h1>
       </div>
       {otherProjects.map((project, index) => (

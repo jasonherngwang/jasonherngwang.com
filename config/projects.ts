@@ -2,13 +2,32 @@ import { ProjectDetails } from '@/types';
 
 export const otherProjects: ProjectDetails[] = [
   {
+    title: 'pylox',
+    description: 'pylox interpreter from Crafting Interpreters',
+    stack: 'Django, Turbo, Tailwind',
+    imageName: 'pylox.png',
+    imageAlt: 'Screenshot of pylox',
+    siteUrl: 'https://pylox.jasonherngwang.com/',
+    githubUrl: 'https://github.com/jasonherngwang/pylox',
+  },
+  {
     title: 'rowanwang.com',
-    description: "My baby boy's website!",
-    stack: 'just vibes',
+    description: "Baby Rowan's website!",
+    stack: 'Framer, shadcn, Neon, Tailwind, NextJS',
     imageName: 'rowanwang.com.png',
     imageAlt: 'Screenshot of rowanwang.com',
     siteUrl: 'https://rowanwang.com/',
     githubUrl: 'https://github.com/jasonherngwang/rowanwang.com',
+  },
+  {
+    title: 'Seamless CI/CD',
+    description:
+      'Open-source, low-config CI/CD pipeline for containerized microservices',
+    stack: 'AWS Step Functions, Fargate, TypeScript CDK',
+    imageName: 'seamless.webp',
+    imageAlt: 'Screenshot of seamless-cicd.com',
+    siteUrl: 'https://seamless-cicd.com/',
+    githubUrl: 'https://github.com/seamless-cicd',
   },
   {
     title: 'JaguarBin',
@@ -55,13 +74,13 @@ export const otherProjects: ProjectDetails[] = [
     // siteUrl: 'https://roar-store.teamjaguar.org/',
     githubUrl: 'https://github.com/ls-jre/roar-store',
   },
-  {
-    title: 'I ❤️ LeetCode',
-    description: 'LeetCode random problem selector and countdown timer',
-    stack: 'Next.js, Prisma, Tailwind, Mongoose, PostgreSQL, DigitalOcean',
-    imageName: 'love-leetcode.webp',
-    imageAlt: 'Screenshot of Love LeetCode App',
-    // siteUrl: 'https://leetcode.jasonherngwang.com/',
-    githubUrl: 'https://github.com/jasonherngwang/love-leetcode',
-  },
+  // {
+  //   title: 'I ❤️ LeetCode',
+  //   description: 'LeetCode random problem selector and countdown timer',
+  //   stack: 'Next.js, Prisma, Tailwind, Mongoose, PostgreSQL, DigitalOcean',
+  //   imageName: 'love-leetcode.webp',
+  //   imageAlt: 'Screenshot of Love LeetCode App',
+  //   // siteUrl: 'https://leetcode.jasonherngwang.com/',
+  //   githubUrl: 'https://github.com/jasonherngwang/love-leetcode',
+  // },
 ];
